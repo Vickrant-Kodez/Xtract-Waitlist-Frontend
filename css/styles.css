@@ -1,0 +1,1049 @@
+/* ==== GOOGLE FONTS ==== */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+body{
+    background-color: #fff;
+    color: #000;
+    height: 100vh;
+    overflow-x: hidden;
+    /* overflow-y: scroll; */
+}
+
+.main-container .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container .navbar .logo{
+    width: 140px;
+    margin-top: 2rem;
+}
+
+.main-container .waitlist-sec{
+    margin-top: 3rem;
+}
+
+.main-container .waitlist-sec > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container .waitlist-sec .heading{
+    width: 550px;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+}
+
+.main-container .waitlist-sec .heading h1{
+    /* font-family: var(--primary-font); */
+    font-weight: 700;
+    font-size: 85px;
+    text-align: center;
+    line-height: 1;
+}
+
+.main-container .waitlist-sec .description{
+    margin-bottom: 1.85rem;
+}
+
+.main-container .waitlist-sec .description p{
+    /* font-family: var(--secondary-font); */
+    font-weight: 600;
+    font-size: 21px;
+}
+
+.main-container .waitlist-sec .input-sec{
+    width: 500px;
+    margin: 0 auto;
+    gap: 0.5rem;
+}
+
+.main-container .waitlist-sec .input-sec input{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 18px 22px;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    background-color: #f4f4f4;
+    transition: all 300ms 0s ease;
+}
+
+.main-container .waitlist-sec .input-sec input::placeholder{
+    font-weight: 600;
+    font-size: 16px;
+    position: relative;
+    top: 1px;
+    color: #777777;
+    transition: all 300ms 0s ease;
+}
+
+.main-container .waitlist-sec .input-sec input:focus{
+    font-weight: 600;
+}
+
+.main-container .waitlist-sec .input-sec input:hover::placeholder{
+    transform: translateX(2px);
+}
+
+.main-container .waitlist-sec .input-sec .get-early-access{
+    background-color: #3171f5;
+    color: #fff;
+    width: 52%;
+    height: 100%;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    padding: 15px 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 300ms 0s ease;
+}
+
+.main-container .waitlist-sec .input-sec .get-early-access:hover{
+    width: 57%;
+    background: rgba(49, 113, 245, 0.9);
+}
+
+.main-container .waitlist-sec .image {
+    margin-top: 8rem;
+    margin-bottom: 13rem;
+}
+
+.main-container .waitlist-sec .image img{
+    width: 100%;
+    transform: scale(1.12);
+}
+
+.main-container .about{
+    text-align: center;
+    line-height: 0.75;
+    margin-bottom: 12rem;
+}
+
+.main-container .about h1{
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.main-container .about h1 span{
+    color: #3171f5;
+}
+
+.main-container .features-sec{
+    margin: 0 3rem;
+}
+
+.main-container .features-sec .feature{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12rem;
+    margin-bottom: 8rem;
+}
+
+.main-container .features-sec .feature .left img{
+    width: 550px;
+}
+
+.main-container .features-sec .feature .right .heading h1{
+    font-size: 65px;
+    width: 360px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.main-container .features-sec .feature .right .desc{
+    margin-top: 1.5rem;
+}
+
+.main-container .features-sec .feature .right .desc p{
+    font-size: 28px;
+    font-weight: 600;
+    width: 420px;
+}
+
+.main-container .footer{
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container .footer .wrapper{
+    margin-top: 4.5rem;
+}
+
+.main-container .footer .wrapper .logo img{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.main-container .footer .input-sec{
+    width: 550px;
+    margin: 0 auto;
+    gap: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.main-container .footer .input-sec input{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 18px 22px;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: all 300ms 0s ease;
+}
+
+.main-container .footer .input-sec input::placeholder{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16;
+    position: relative;
+    top: 1px;
+    color: #8b8b8b;
+    transition: all 300ms 0s ease;
+}
+
+.main-container .footer .input-sec input:focus{
+    font-weight: 600;
+    color: #fff;
+}
+
+.main-container .footer .input-sec input:hover::placeholder{
+    transform: translateX(2px);
+}
+
+.main-container .footer .input-sec .get-early-access{
+    background-color: #fff;
+    color: #000;
+    width: 52%;
+    height: 100%;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    padding: 15px 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 300ms 0s ease;
+}
+
+.main-container .footer .input-sec .get-early-access:hover{
+    width: 57%;
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
+.main-container .footer .social-media{
+    margin-top: 4rem;
+}
+
+.main-container .footer .social-media .links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.main-container .footer .social-media .links li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.main-container .footer .copyright{
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.main-container .footer .copyright p{
+    color: #fff;
+    text-align: center;
+}
+
+/* ==== MEDIA QUERIES ==== */
+@media (max-width: 1200px) {
+    .main-container .features-sec .feature {
+        gap: 7rem;
+    }
+    .main-container .features-sec .feature .left img {
+        width: 500px;
+    }
+}
+@media (max-width: 1050px) {
+    .main-container .about h1 {
+        font-size: 60px;
+    }
+    .main-container .features-sec .feature .left img {
+        width: 450px;
+    }
+    .main-container .features-sec .feature {
+        gap: 5rem;
+    }
+    .main-container .features-sec .feature .right .heading h1 {
+        font-size: 60px;
+        width: 360px;
+    }
+    .main-container .features-sec .feature .right .desc p {
+        font-size: 25px;
+    }
+}
+@media (max-width: 968px) {
+    .main-container .about h1 {
+        font-size: 56px;
+    }
+    .main-container .features-sec .feature .left img {
+        width: 360px;
+    }
+    .main-container .features-sec .feature .right .heading h1 {
+        font-size: 55px;
+    }
+    .main-container .features-sec .feature .right .desc p {
+        font-size: 22px;
+    }
+    .main-container .features-sec {
+        margin: 0;
+    }
+}
+@media (max-width: 880px) {
+    .main-container .navbar .logo {
+        width: 120px;
+    }
+    .main-container .waitlist-sec .heading h1 {
+        font-size: 75px;
+    }
+    .main-container .waitlist-sec .description p {
+        font-size: 18px;
+    }
+    .main-container .about h1 {
+        font-size: 50px;
+    }
+    .main-container .features-sec .feature .left img {
+        width: 320px;
+    }
+    .main-container .features-sec .feature .right .heading h1 {
+        font-size: 48px;
+    }
+    .main-container .features-sec .feature {
+        gap: 3rem;
+    }
+}
+@media (max-width: 790px) {
+    .main-container .waitlist-sec .heading h1 {
+        font-size: 65px;
+    }
+    .main-container .waitlist-sec .heading {
+        width: 500px;
+        margin: 0 auto;
+        margin-bottom: 1.5rem;
+    }
+    .main-container .waitlist-sec .description p {
+        font-size: 16px;
+    }
+    .main-container .waitlist-sec .input-sec input {
+        padding: 16px 20px;
+    }
+    .main-container .waitlist-sec .input-sec .get-early-access {
+        padding: 13px 20px;
+    }
+    .main-container .about h1 {
+        font-size: 44px;
+    }
+    .main-container .features-sec .feature .left img {
+        width: 270px;
+    }
+    .main-container .features-sec .feature .right .heading h1 {
+        font-size: 44px;
+    }
+    .main-container .features-sec .feature .right .desc p {
+        font-size: 20px;
+        width: 320px;
+    }
+    .main-container .features-sec .feature.three .right .desc p{
+        width: 370px;
+    }
+    .main-container .features-sec .feature {
+        gap: 4rem;
+    }
+} 
+@media (max-width: 690px) {
+    .main-container .features-sec .feature {
+        gap: 1rem;
+    }
+    .main-container .features-sec .feature.two .right .heading h1 {
+        width: 320px;
+    }
+    .main-container .features-sec .feature .right .heading h1 {
+        width: 300px;
+        font-size: 42px;
+    }
+    .main-container .features-sec .feature.one {
+        gap: 2rem;
+    }
+    .main-container .about h1 {
+        font-size: 42px;
+    }
+    .main-container .footer .wrapper .logo img {
+        width: 65%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 605px) {
+    .main-container .about h1 {
+        font-size: 35px;
+    }
+    .main-container .features-sec .feature .left img {
+        width: 220px;
+    }
+    .main-container .features-sec .feature .right .heading h1 {
+        font-size: 38px;
+    }
+    .main-container .features-sec .feature .right .desc p {
+        font-size: 18px;
+        width: 320px;
+    }
+    .main-container .features-sec .feature.two .right .heading h1 {
+        width: 300px;
+    }
+    .main-container .features-sec .feature.one{
+        gap: 2.75rem;
+    }
+    .main-container .features-sec .feature .right .desc p {
+        width: 300px;
+    }
+}
+@media (max-width: 550px) {
+    .main-container .waitlist-sec .heading h1 {
+        font-size: 58px;
+    }
+    .main-container .waitlist-sec .heading {
+        width: 400px;
+        margin: 0 auto;
+        margin-bottom: 1.5rem;
+    }
+    .main-container .waitlist-sec .description p {
+        font-size: 14px;
+    }
+    .main-container .about h1 {
+        font-size: 32px;
+    }
+    .main-container .features-sec .feature .left img {
+        width: 180px;
+    }
+    .main-container .features-sec .feature .right .heading h1 {
+        font-size: 32px;
+        width: 250px;
+    }
+    .main-container .features-sec .feature.one {
+        gap: 1rem;
+    }
+    .main-container .features-sec .feature .right .desc {
+        margin-top: 1rem;
+    }
+    .main-container .features-sec .feature .right .desc p {
+        font-size: 15px;
+        width: 300px;
+    }
+    .main-container .features-sec .feature.two .right .heading h1 {
+        width: 250px;
+    }
+    .main-container .features-sec .feature.three .right .desc p {
+        width: 290px;
+    }
+    .main-container .footer .wrapper .logo img {
+        width: 50%;
+    }
+    .main-container .footer .input-sec input {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding: 16px 20px;
+        outline: none;
+        border: none;
+        border-radius: 50px;
+        background-color: rgba(255, 255, 255, 0.2);
+        transition: all 300ms 0s ease;
+    }
+    .main-container .footer .input-sec .get-early-access {
+        background-color: #fff;
+        color: #000;
+        width: 45%;
+        height: 100%;
+        outline: none;
+        border: none;
+        border-radius: 50px;
+        padding: 13px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 300ms 0s ease;
+    }
+    .main-container .footer .input-sec .get-early-access:hover{
+        width: 70%;
+    }
+    .main-container .footer .input-sec {
+        width: 450px;
+        margin: 0 auto;
+        gap: 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 4rem;
+    }
+    .main-container .footer .social-media .links li a {
+        font-size: 18px;
+    }
+    /*  */
+    .main-container .features-sec {
+        margin: 0;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .main-container .features-sec .feature {
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        gap: 12rem;
+        margin: 0 auto;
+        margin-bottom: 7rem;
+    }
+    .main-container .features-sec .feature.one .left{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .main-container .features-sec .feature .left img {
+        width: 350px;
+    }
+    .main-container .features-sec .feature .right .heading h1 {
+        font-size: 34px;
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+    .main-container .features-sec .feature .right .desc p {
+        font-size: 17px;
+        margin: 0 auto;
+        width: 260px;
+        text-align: center;
+    }
+    .main-container .features-sec .feature.two{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 0rem;
+    }
+    .main-container .features-sec .feature.two .right .heading h1 {
+        width: 200px;
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+    .main-container .features-sec .feature.three .left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .main-container .waitlist-sec .image {
+        margin-top: 8rem;
+        margin-bottom: 10rem;
+    }
+    .main-container .about {
+        text-align: center;
+        line-height: 0.75;
+        margin-bottom: 9rem;
+    }
+}
+@media (max-width: 500px) {
+    .main-container .waitlist-sec .input-sec {
+        width: 420px;
+        margin: 0 auto;
+        gap: 0.5rem;
+    }
+    .main-container .features-sec .feature .left img {
+        width: 140px;
+    }
+    .main-container .features-sec .feature.one{
+        gap: 2rem;
+    }
+    .main-container .features-sec .feature.two .right .heading h1 {
+        width: 200px;
+    }.main-container .features-sec .feature {
+        margin-bottom: 6rem;
+    }
+    .main-container .features-sec .feature .right .heading h1 {
+        font-size: 26px;
+        width: 200px;
+    }
+    .main-container .features-sec .feature .right .desc p {
+        font-size: 14px;
+        width: 260px;
+    }
+    .main-container .about h1 {
+        font-size: 28px;
+    }
+    .main-container .waitlist-sec .input-sec input {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding: 19px 23px;
+        outline: none;
+        border: none;
+        border-radius: 50px;
+        background-color: #f4f4f4;
+        transition: all 300ms 0s ease;
+    }
+    .main-container .waitlist-sec .input-sec input::placeholder{
+        font-size: 14px;
+    }
+    .main-container .waitlist-sec .input-sec .get-early-access {
+        background-color: #3171f5;
+        color: #fff;
+        width: 35%;
+        height: 100%;
+        outline: none;
+        border: none;
+        border-radius: 50px;
+        padding: 16px 28px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 300ms 0s ease;
+    }
+    .main-container .waitlist-sec .input-sec .get-early-access:hover {
+        width: 40%;
+        background: rgba(49, 113, 245, 0.9);
+    }
+    .main-container .features-sec {
+        margin: 0;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .main-container .features-sec .feature {
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        gap: 12rem;
+        margin: 0 auto;
+        margin-bottom: 7rem;
+    }
+    .main-container .features-sec .feature.one .left{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .main-container .features-sec .feature .left img {
+        width: 280px;
+    }
+    .main-container .features-sec .feature .right .heading h1 {
+        font-size: 30px;
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+    .main-container .features-sec .feature .right .desc p {
+        font-size: 15px;
+        margin: 0 auto;
+        width: 260px;
+        text-align: center;
+    }
+    .main-container .features-sec .feature.two{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 0rem;
+    }
+    .main-container .features-sec .feature.two .right .heading h1 {
+        width: 200px;
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+    .main-container .features-sec .feature.three .left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .main-container .waitlist-sec .image {
+        margin-top: 8rem;
+        margin-bottom: 10rem;
+    }
+    .main-container .about {
+        text-align: center;
+        line-height: 0.75;
+        margin-bottom: 9rem;
+    }
+}
+@media (max-width: 425px) {
+    .main-container .navbar .logo {
+        width: 100px;
+    }
+    .main-container .waitlist-sec .heading h1 {
+        font-size: 52px;
+    }
+    .main-container .waitlist-sec .description p {
+        font-size: 12px;
+    }
+    .main-container .waitlist-sec .input-sec {
+        width: 420px;
+        margin: 0 auto;
+        gap: 0rem;
+        display: inline-block;
+    }
+    .main-container .waitlist-sec .input-sec input {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        width: 80%;
+        padding: 19px 23px;
+        outline: none;
+        border: none;
+        border-radius: 50px;
+        background-color: #f4f4f4;
+        transition: all 300ms 0s ease;
+    }
+    .main-container .waitlist-sec .input-sec .get-early-access {
+        background-color: #3171f5;
+        color: #fff;
+        width: 40%;
+        height: 100%;
+        outline: none;
+        border: none;
+        border-radius: 50px;
+        padding: 16px 28px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 1rem;
+        font-size: 14px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 300ms 0s ease;
+    }
+    .main-container .footer .input-sec {
+        width: 450px;
+        margin: 0 auto;
+        gap: 0rem;
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3rem;
+    }
+    .main-container .footer .input-sec input {
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        width: 80%;
+        padding: 16px 20px;
+        outline: none;
+        border: none;
+        border-radius: 50px;
+        background-color: rgba(255, 255, 255, 0.2);
+        transition: all 300ms 0s ease;
+        margin-bottom: 1rem;
+    }
+    .main-container .waitlist-sec .image {
+        margin-top: 8rem;
+        margin-bottom: 10rem;
+    }
+    .main-container .about {
+        text-align: center;
+        line-height: 0.75;
+        margin-bottom: 9rem;
+    }
+    .main-container .features-sec {
+        margin: 0;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .main-container .features-sec .feature {
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        gap: 12rem;
+        margin: 0 auto;
+        margin-bottom: 7rem;
+    }
+    .main-container .features-sec .feature.one .left{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .main-container .features-sec .feature .left img {
+        width: 220px;
+    }
+    .main-container .features-sec .feature .right .heading h1 {
+        font-size: 26px;
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+    .main-container .features-sec .feature .right .desc p {
+        font-size: 14px;
+        margin: 0 auto;
+        width: 260px;
+        text-align: center;
+    }
+    .main-container .features-sec .feature.two{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 0rem;
+    }
+    .main-container .features-sec .feature.two .right .heading h1 {
+        width: 200px;
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+    .main-container .features-sec .feature.three .left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .main-container .footer .copyright p {
+        color: #fff;
+        text-align: center;
+        font-size: 11px;
+    }
+}
+@media (max-width: 375px) {
+    .main-container .navbar .logo {
+        width: 80px;
+    }
+    .main-container .waitlist-sec .heading h1 {
+        font-size: 40px;
+        width: 300px;
+    }
+    .main-container .waitlist-sec .description p {
+        width: 300px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 12px;
+    }
+    .main-container .waitlist-sec .input-sec {
+        width: 100%;
+        margin: 0 auto;
+        gap: 0rem;
+        display: inline-block;
+    }
+    .main-container .waitlist-sec .input-sec .get-early-access {
+        background-color: #3171f5;
+        color: #fff;
+        width: 40%;
+        height: 100%;
+        outline: none;
+        border: none;
+        border-radius: 50px;
+        padding: 16px 28px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 1rem;
+        font-size: 12px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 300ms 0s ease;
+    }
+    .main-container .waitlist-sec .heading {
+        width: 100%;
+    }
+    .main-container .footer .input-sec {
+        width: 400px;
+        margin: 0 auto;
+        gap: 0rem;
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3rem;
+    }
+    .main-container .about h1 {
+        font-size: 22px;
+        line-height: 1.05;
+    }
+    .main-container .footer .social-media .links li a {
+        font-size: 14px;
+    }
+} 
+@media (max-width: 320px) {
+    .main-container .waitlist-sec .heading h1 {
+        font-size: 32px;
+        width: 220px;
+    }
+    .main-container .waitlist-sec .description p {
+        width: 240px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 10px;
+    }
+    .main-container .waitlist-sec .input-sec input {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        width: 80%;
+        padding: 19px 23px;
+        outline: none;
+        border: none;
+        border-radius: 50px;
+        background-color: #f4f4f4;
+        transition: all 300ms 0s ease;
+        font-size: 10px;
+    }
+    .main-container .waitlist-sec .input-sec .get-early-access {
+        background-color: #3171f5;
+        color: #fff;
+        width: 40%;
+        height: 100%;
+        outline: none;
+        border: none;
+        border-radius: 50px;
+        padding: 14px 28px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 1rem;
+        font-size: 10px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 300ms 0s ease;
+    }
+    .main-container .about h1 {
+        font-size: 18px;
+        line-height: 1.05;
+    }
+    .main-container .waitlist-sec .input-sec .get-early-access:hover {
+        width: 50%;
+        background: rgba(49, 113, 245, 0.9);
+    }
+    .main-container .footer .input-sec .get-early-access:hover {
+        width: 50%;
+    }
+    .main-container .footer .input-sec {
+        width: 350px;
+        margin: 0 auto;
+        gap: 0rem;
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3rem;
+    }
+    .main-container .footer .input-sec .get-early-access {
+        background-color: #fff;
+        color: #000;
+        width: 40%;
+        height: 100%;
+        outline: none;
+        border: none;
+        border-radius: 50px;
+        padding: 13px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 300ms 0s ease;
+    }
+    .main-container .footer .social-media .links {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+} 
+@media (max-width: 280px) {
+    .main-container .waitlist-sec .input-sec .get-early-access {
+        background-color: #3171f5;
+        color: #fff;
+        width: 40%;
+        height: 100%;
+        outline: none;
+        border: none;
+        border-radius: 50px;
+        padding: 10px 28px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 1rem;
+        font-size: 10px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 300ms 0s ease;
+    }
+    .main-container .features-sec .feature.three .right .desc p {
+        width: 260px;
+    }
+    .main-container .footer .input-sec {
+        width: 300px;
+        margin: 0 auto;
+        gap: 0rem;
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3rem;
+    }
+    .main-container .footer .input-sec .get-early-access {
+        background-color: #fff;
+        color: #000;
+        width: 40%;
+        height: 100%;
+        outline: none;
+        border: none;
+        border-radius: 50px;
+        padding: 10px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 10px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 300ms 0s ease;
+    }
+}
